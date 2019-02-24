@@ -9,8 +9,8 @@ export class SideNavComponent implements OnInit {
 
   list: Array<object> = [
     { value:'Basic DnD', route: '/basicDnD'},
-    { value:'Basic DnD1', route: '/basicDnD1'},
-    { value:'Basic DnD2', route: '/basicDnD2'}
+    { value:'Reordering List', route: '/reorderingList'},
+    { value:'Drag Handle', route: '/dragHandle'}
   ];
   
   constructor() { }

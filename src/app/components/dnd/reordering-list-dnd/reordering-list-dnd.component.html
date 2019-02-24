@@ -1,0 +1,7 @@
+<div class="dropZone" cdkDropList (cdkDropListDropped)="drop($event)">
+  <mat-card *ngFor="let val of dragItems" cdkDrag>
+    <mat-card-content>
+        {{val}}
+    </mat-card-content>
+  </mat-card>
+</div>

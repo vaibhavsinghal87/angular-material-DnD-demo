@@ -1,7 +1,14 @@
 .container {
-    height: 100%;
+  height: 100%;
 }
 
 mat-sidenav {
   width: 200px;
+}
+
+.content {
+  display: flex;
+  height: 80%;
+  align-items: center;
+  justify-content: center;
 }
